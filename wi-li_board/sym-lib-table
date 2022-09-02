@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "ESP8266")(type "Legacy")(uri "${KIPRJMOD}/rickicad/libraries/kicad-ESP8266/ESP8266.lib")(options "")(descr ""))
+  (lib (name "Diodes_Inc")(type "KiCad")(uri "${KIPRJMOD}/rickicad/libraries/Diodes_Inc/Diodes_Inc.kicad_sym")(options "")(descr ""))
+  (lib (name "Wago")(type "KiCad")(uri "${KIPRJMOD}/rickicad/libraries/Wago/Wago.kicad_sym")(options "")(descr ""))
+)

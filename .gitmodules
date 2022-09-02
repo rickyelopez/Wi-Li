@@ -1,0 +1,3 @@
+[submodule "wi-li_board/rickicad"]
+	path = wi-li_board/rickicad
+	url = git@github.com:rickyelopez/rickicad.git

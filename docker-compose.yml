@@ -1,0 +1,15 @@
+version: '3'
+services:
+  esphome:
+    container_name: esphome
+    image: esphome/esphome
+    volumes:
+      - ./esphome/config:/config
+      - /etc/localtime:/etc/localtime:ro
+    restart: unless-stopped
+    privileged: true
+    network_mode: host
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    devices:
+      - /dev/ttyUSB0:/dev/ttyUSB0

@@ -1,0 +1,71 @@
+esphome:
+  name: test
+
+esp8266:
+  board: esp12e
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: ""
+
+ota:
+  password: ""
+
+wifi:
+  ssid: <ssid>
+  password: <password>
+  use_address: <IP>
+  domain: <domain>
+  fast_connect: on
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Test Fallback Hotspot"
+    password: "AdPn6ys4LwVL"
+
+captive_portal:
+
+
+switch:
+  - platform: gpio
+    name: "gpio0"
+    pin: 0
+  - platform: gpio
+    name: "gpio1"
+    pin: 1
+  - platform: gpio
+    name: "gpio2"
+    pin: 2
+  - platform: gpio
+    name: "gpio3"
+    pin: 3
+  - platform: gpio
+    name: "gpio4"
+    pin: 4
+  - platform: gpio
+    name: "gpio5"
+    pin: 5
+  # - platform: gpio
+  #   name: "gpio9"
+  #   pin: 9
+  # - platform: gpio
+  #   name: "gpio10"
+  #   pin: 10
+  - platform: gpio
+    name: "gpio12"
+    pin: 12
+  - platform: gpio
+    name: "gpio13"
+    pin: 13
+  - platform: gpio
+    name: "gpio14"
+    pin: 14
+  - platform: gpio
+    name: "gpio15"
+    pin: 15
+  - platform: gpio
+    name: "gpio16"
+    pin: 16

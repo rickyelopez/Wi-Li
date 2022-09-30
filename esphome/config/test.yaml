@@ -28,26 +28,31 @@ wifi:
 
 captive_portal:
 
+status_led:
+  pin:
+    number: 2
+    inverted: true
 
 switch:
+  # - platform: gpio
+  #   name: "gpio0"
+  #   pin: 0
+  # - platform: gpio
+  #   name: "gpio1"
+  #   pin: 1
+  # - platform: gpio
+  #   name: "gpio2"
+  #   pin: 2
+  
+  # - platform: gpio
+  #   name: "gpio3"
+  #   pin: 3
   - platform: gpio
-    name: "gpio0"
-    pin: 0
-  - platform: gpio
-    name: "gpio1"
-    pin: 1
-  - platform: gpio
-    name: "gpio2"
-    pin: 2
-  - platform: gpio
-    name: "gpio3"
-    pin: 3
-  - platform: gpio
-    name: "gpio4"
+    name: "Group 1"
     pin: 4
-  - platform: gpio
-    name: "gpio5"
-    pin: 5
+  # - platform: gpio
+  #   name: "gpio5"
+  #   pin: 5
   # - platform: gpio
   #   name: "gpio9"
   #   pin: 9
@@ -55,17 +60,17 @@ switch:
   #   name: "gpio10"
   #   pin: 10
   - platform: gpio
-    name: "gpio12"
+    name: "Group 2"
     pin: 12
+  # - platform: gpio
+  #   name: "gpio13"
+  #   pin: 13
   - platform: gpio
-    name: "gpio13"
-    pin: 13
-  - platform: gpio
-    name: "gpio14"
+    name: "Group 3"
     pin: 14
-  - platform: gpio
-    name: "gpio15"
-    pin: 15
-  - platform: gpio
-    name: "gpio16"
-    pin: 16
+  # - platform: gpio
+  #   name: "gpio15"
+  #   pin: 15
+  # - platform: gpio
+  #   name: "gpio16"
+  #   pin: 16

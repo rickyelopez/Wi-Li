@@ -33,6 +33,19 @@ status_led:
     number: 2
     inverted: true
 
+# Example configuration entry
+output:
+  - platform: esp8266_pwm
+    pin: 4
+    frequency: 1000 Hz
+    id: pwm_output
+
+# Example usage in a light
+light:
+  - platform: monochromatic
+    output: pwm_output
+    name: "Group 1"
+
 switch:
   # - platform: gpio
   #   name: "gpio0"
@@ -47,9 +60,11 @@ switch:
   # - platform: gpio
   #   name: "gpio3"
   #   pin: 3
-  - platform: gpio
-    name: "Group 1"
-    pin: 4
+  
+  # - platform: gpio
+  #   name: "Group 1"
+  #   pin: 4
+  
   # - platform: gpio
   #   name: "gpio5"
   #   pin: 5

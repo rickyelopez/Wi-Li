@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name "ESP8266")(type "KiCad")(uri "${KIPRJMOD}/rickicad/libraries/kicad-ESP8266/ESP8266.pretty")(options "")(descr ""))
   (lib (name "Diodes_Inc")(type "KiCad")(uri "${KIPRJMOD}/rickicad/libraries/Diodes_Inc/Diodes_Inc.pretty")(options "")(descr ""))
+  (lib (name "Panelization")(type "KiCad")(uri "${KIPRJMOD}/rickicad/libraries/Panelization.pretty")(options "")(descr ""))
 )
